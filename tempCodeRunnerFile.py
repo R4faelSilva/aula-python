@@ -1,1 +1,0 @@
-print(f"Operação 1 (operacaoAnd")
