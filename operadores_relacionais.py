@@ -1,5 +1,5 @@
-a = 6
-b = 9
+a = 5
+b = 8
 
 # Igualdade (==)
 resultado = a == b
