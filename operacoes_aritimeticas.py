@@ -3,6 +3,8 @@ b = 3
 
 # Adição (+)
 resultado = a + b
+print("###########################")
+print("  ")
 print(f"Soma: {resultado}")
 
 # Subtração (-)
@@ -28,6 +30,7 @@ print(f"Resto da divisão: {resultado}")
 # Expoente (**)
 resultado = a ** b
 print(f"Expoente: {resultado}")
+print("  ")
 print("###########################")
 
 saldoInicial = 50
