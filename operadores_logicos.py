@@ -25,4 +25,4 @@ if (dia > 28) and (indicacao == "Não"):
     print("A data de inscrição expirou")
     verf = False
 if verf == False:
-    print("Sua incrição foi negada!")
+    print("Sua incrição foi negada!\n")
