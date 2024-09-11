@@ -88,6 +88,8 @@ print(3 in conjunto) # True
 print(6 in conjunto) # False
 
 # Tipos de dados
+b = 1
+a = 2
 variavel = int 
 def soma(a: int, b: int) -> int:
     return a + b
