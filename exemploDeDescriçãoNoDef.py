@@ -4,7 +4,6 @@ def saudacao(nome):
     Input: Nome da pessoa\n
     output: saudação
     """
-    
     print(f"Olá {nome}")
 nomePessoa = "Rafael"
 saudacao(nomePessoa)
