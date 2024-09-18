@@ -10,7 +10,7 @@ def divisao(a, b):
 def main():
     a = float(input(f"valor A: "))
     b = float(input(f"valor B: "))
-    operacao = input("Qual o tipo de operação? (*,/,-,+)")
+    operacao = input("Qual o tipo de operação? (*,/,-,+) ")
 
     if operacao.upper() == "*":
         print(f"A multiplicação é {multiplicacao(a, b)}")
