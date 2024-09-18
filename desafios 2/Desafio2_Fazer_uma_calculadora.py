@@ -8,7 +8,18 @@ def divisao(a, b):
     return a / b
 
 def main():
-    valor1 = float(input(f"valor A: "))
-    valor2 = float(input(f"valor B: "))
-    print(valor1, valor2)
+    a = float(input(f"valor A: "))
+    b = float(input(f"valor B: "))
+    operacao = input("Qual o tipo de operação? (*,/,-,+)")
+
+    if operacao.upper() == "*":
+        print(f"A multiplicação é {multiplicacao(a, b)}")
+    if operacao.upper() == "/":
+        print(f"A divisão é {divisao(a, b)}")
+    if operacao.upper() == "-":
+        print(f"A subtração é {subtracao(a, b)}")
+    if operacao.upper() == "+":
+        print(f"A soma é {soma(a, b)}")
+    else:
+        print("Não existe essa operação")
 main()
